@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/ticket">
+        <file>exit.png</file>
+        <file>ticket.qss</file>
+        <file>th.png</file>
+        <file>add.png</file>
+        <file>cut.png</file>
+        <file>edit.png</file>
+        <file>save.png</file>
+        <file>down.png</file>
+        <file>next.png</file>
+        <file>previous.png</file>
+        <file>cancel.png</file>
+        <file>issue.png</file>
+        <file>chess.png</file>
+        <file>top.png</file>
+        <file>refresh.png</file>
+        <file>account_stat.png</file>
+        <file>input_stat.png</file>
+        <file>use_stat.png</file>
+        <file>output_stat.png</file>
+        <file>consume_stat.png</file>
+        <file>transfer_stat.png</file>
+        <file>back.png</file>
+        <file>100x100.gif</file>
+        <file>member.png</file>
+        <file>company.elable.net.crt</file>
+    </qresource>
+</RCC>

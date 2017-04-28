@@ -1,0 +1,140 @@
+QDialog {background:#484848}
+
+QMainWindow {background:#606063}
+
+QLabel {
+  color:white;
+}
+
+QLabel#paySummary {
+  background: #606063;
+  color:white;
+}
+
+QLineEdit {
+  color:white; 
+  background:gray;
+  border: 1 solid #357ebd;
+}
+
+QLineEdit#filter {
+  color:white;
+  border: 2px solid #357ebd;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: gray;
+  selection-background-color: darkgray;
+}
+
+QPushButton {
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+QPushButton::hover {
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+
+QListView {
+  show-decoration-selected: 1;
+  border: 1px solid #357ebd;
+  background-color: #606063;
+  font-size: 14px;
+  color: #00a9a2;
+}
+
+QListView#rulesList {
+  border: none;
+  font-size: 16px;
+}
+
+QListView#rulesList::item{
+  height: 40px;
+}
+
+QListView::item:selected {
+  border: 1px solid #6a6ea9;
+}
+
+QListView::item:selected:!active {
+  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #ABAFE5, stop: 1 #8588B2);
+}
+
+QListView::item:selected:active {
+  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6a6ea9, stop: 1 #888dd9);
+}
+
+QListView::item:hover {
+  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #FAFBFE, stop: 1 #DCDEF1);
+}
+
+QTableView {
+  background-color: #606063;
+  color: white;
+}
+
+QToolBar {
+  background: black;
+  border: 1px solid black;
+  spacing: 5px;
+}
+
+QRadioButton {
+  color: white;
+}
+
+QComboBox {
+  border: 1px solid #357ebd;
+  border-radius: 3px;
+  padding: 1px 18px 1px 3px;
+  min-width: 6em;
+  color:white;
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+  padding-top: 3px;
+  padding-left: 4px;
+}
+
+QComboBox::drop-down {
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  width: 15px;
+
+  border-left-width: 1px;
+  border-left-color: #357ebd;
+  border-left-style: solid; /* just a single line */
+  border-top-right-radius: 3px; /* same radius as the QComboBox */
+  border-bottom-right-radius: 3px;
+}
+
+QComboBox::down-arrow {
+   image: url(:/ticket/down.png);
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+  top: 1px;
+  left: 1px;
+}
+
+QComboBox QAbstractItemView:hover {
+  border: 2px solid #32435E;
+}
+
+QScrollArea {
+  background-color: #606063;
+}
+
